@@ -1,0 +1,53 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "bringToFront:",
+	    "doRedo:",
+	    "doUndo:",
+	    "editObjectsProperties:",
+	    "inspectObject:",
+	    "method:",
+	    "moveSelectedObjectsToBack:",
+	    "moveSelectedObjectsToFront:",
+	    "new:",
+	    "psprint:",
+	    "save:",
+	    "saveas:",
+	    "sendToBack:",
+	    "showObjectInspector:",
+	    "unselectOtherObjects:",
+	    "zoom100:",
+	    "zoom200:",
+	    "zoom50:",
+	    "zoomFitPage:",
+	    "zoomFitWidth:"
+	);
+	Super = NSObject;
+    };
+    GRDocView = {
+	Actions = (
+	    "moveSelectedObjectsToFront:",
+	    "moveSelectedObjectsToBack:",
+	    "zoom50:",
+	    "zoom100:",
+	    "zoom200:",
+	    "zoomFitPage:",
+	    "zoomFitWidth:",
+	    "cut:",
+	    "copy:",
+	    "paste:"
+	);
+	Outlets = (
+	);
+	Super = NSView;
+    };
+    Graphos = {
+	Actions = (
+	    "showObjectInspector:"
+	);
+	Outlets = (
+	);
+	Super = NSObject;
+    };
+}
